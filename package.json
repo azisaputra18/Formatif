@@ -1,0 +1,20 @@
+{
+  "name": "proyek-tailwind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.0.13",
+    "@tailwindcss/postcss": "^4.0.13",
+    "flowbite": "^3.1.2",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.0.13"
+  }
+}
